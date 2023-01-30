@@ -36,6 +36,16 @@
 color: white
 }
 
+.navBar a{
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif ;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+    transition: all 1s;
+    text-decoration: none;
+
+}
 .navBar li{
     color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif ;
