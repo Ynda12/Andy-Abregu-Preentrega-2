@@ -53,7 +53,7 @@ color: white
     color: pink;
 }
 
-body{
+.bodyColor{
     background-color: rgb(15, 64, 74);
     background-size: 1400px 1150px;
     background-position:top
