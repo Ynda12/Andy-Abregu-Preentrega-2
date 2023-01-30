@@ -1,0 +1,138 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerNavBar{
+    background-color: rgb(12, 134, 143);
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    z-index: ;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logoYnda{
+    color: pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family:'Yanone Kaffeesatz', sans-serif ;
+    font-size: 25px;
+    font-weight: 900;
+    padding-left: 20px;
+    transition: all 1s;
+}
+
+.logoYnda:hover{
+    cursor: pointer;
+color: white
+}
+
+.navBar li{
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif ;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+    transition: all 1s;
+    
+}
+
+
+.buttonAnim :hover{
+    cursor: pointer;
+    font-size: 20px;
+    color: pink;
+}
+
+body{
+    background-color: rgb(15, 64, 74);
+    background-size: 1400px 1150px;
+    background-position:top
+    
+    
+}
+
+
+.principalBanner{
+    background-color: rgb(255, 192, 203);
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s;
+}
+
+.principalBanner :hover{
+    cursor: pointer;
+    color: rgb(12, 134, 143);
+}
+
+
+.bannerRosa{
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: left;
+    display: flex;
+    font-size: 48px;
+    padding-bottom:50px;
+    padding-left: 300px;
+    padding-top: 75px;
+    font-weight: 800;
+    transition: all 1s;
+    
+}
+
+
+.tapaDiscoBanner{
+    float: right;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.tapaDiscoBanner :hover{
+    transform: scale(1.1);
+}
+
+.proximoShow{
+    color: white;
+    background-color: pink;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 800;
+    font-size: 48px ;
+    text-align: center;
+    padding: 40px;
+    margin: 10px 200px;
+    
+}
+
+.secondaryBannerAnim h3{
+background-color: pink;
+transition: all 1s;
+}
+.secondaryBanner :hover{
+    cursor: pointer;
+    color: rgb(12, 134, 143);
+}
+
+.pieDePagina{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 134, 143);
+    font-family:'Yanone Kaffeesatz', sans-serif; 
+    text-align: center;
+    color:white
+}
+
+
+
