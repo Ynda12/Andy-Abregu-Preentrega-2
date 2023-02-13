@@ -129,6 +129,7 @@ color: white
 background-color: pink;
 transition: all 1s;
 }
+
 .secondaryBanner :hover{
     cursor: pointer;
     color: rgb(12, 134, 143);
